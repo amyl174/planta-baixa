@@ -1,0 +1,54 @@
+  body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+  }
+
+  .house {
+      width: 300px;
+      height: 200px;
+      position: relative;
+      border: 2px solid #000;
+  }
+
+  .room {
+      position: absolute;
+      border: 1px solid #000;
+  }
+
+  .kitchen {
+      width: 150px;
+      height: 100px;
+      top: 0;
+      left: 0;
+  }
+
+  .living-room {
+      width: 150px;
+      height: 100px;
+      top: 0;
+      left: 150px;
+  }
+
+  .bedroom {
+      width: 100px;
+      height: 100px;
+      top: 100px;
+      left: 0;
+  }
+
+  .bathroom {
+      width: 100px;
+      height: 100px;
+      top: 100px;
+      left: 100px;
+  }
+
+  .office {
+      width: 100px;
+      height: 100px;
+      top: 100px;
+      left: 200px;
+  }
